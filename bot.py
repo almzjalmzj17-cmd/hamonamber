@@ -1,4 +1,4 @@
-import logging
+TelegramBotamBotR_BOT_TOKEN_HEREgging
 import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
@@ -12,7 +12,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 PANEL_USER = "almoz3j"
 PANEL_PASS = "hamoalmoz3j"
 # توكن البوت (سيتم استبداله من قبل المستخدم)
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8373667774:AAELsngmB9k2NuofrA-8QIrP968VveH-mgw"
 
 class TelegramBot:
     def __init__(self, token):
